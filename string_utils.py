@@ -1,4 +1,4 @@
-def split_before_uppercases(formula):
+def split_by_capitals(formula):
     upper_index = []
     new_formula = []
     
@@ -21,7 +21,7 @@ def split_before_uppercases(formula):
       new_formula.append(formula)
     return new_formula
 
-def split_at_digit(formula):
+def split_at_number(formula):
   count = 0
   for l in formula:
     count += 1
